@@ -17,9 +17,6 @@ val appModule = module {
     factory {
         val test = getProperty<String>("BASE_URL")
         val test2 = getProperty<Int>("TEST")
-//        val test3 = getProperty<Boolean>("GG")
-//
-//        Log.i("AppModule", " test : $test , test2 : $test2, test3: $test3")
         MainPresenter(get())
     }
 
