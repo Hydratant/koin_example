@@ -30,6 +30,7 @@ dependencies {
     // Koin for Android
     implementation "org.koin:koin-android:$koin_version"
     implementation "org.koin:koin-android-scope:$koin_version"
+    implementation "org.koin:koin-java:$koin_version"
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     // ViewModel and LiveData
